@@ -1,0 +1,45 @@
+/*****General Property*****/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Red+Hat+Text:wght@500&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 970px;
+  /*940 + 15 + 15*/
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.8;
+  /* 25/14=1.8 */
+  color: #6A859C;
+}
+
+.header {
+  padding: 20px 0;
+}
+.container {
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+}
+.header__nav {
+}
+.header__list {
+  display: flex;
+}
+.header__item + li {
+  margin-left: 40px;
+}
+.header__link {
+}
