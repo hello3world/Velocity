@@ -24,22 +24,25 @@ p {
 .header {
   padding: 20px 0;
 }
-.container {
-}
+
+.container {}
+
 .header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.logo {
-}
-.header__nav {
-}
+
+.logo {}
+
+.header__nav {}
+
 .header__list {
   display: flex;
 }
-.header__item + li {
+
+.header__item+li {
   margin-left: 40px;
 }
-.header__link {
-}
+
+.header__link {}
