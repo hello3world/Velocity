@@ -21,6 +21,7 @@ p {
   color: #6A859C;
 }
 
+/*****Header Block******/
 .header {
   padding: 20px 0;
 }
@@ -33,7 +34,13 @@ p {
   align-items: center;
 }
 
-.logo {}
+.logo {
+  font-size: 25px;
+  line-height: 1;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #69B9FF;
+}
 
 .header__nav {}
 
@@ -45,4 +52,18 @@ p {
   margin-left: 40px;
 }
 
-.header__link {}
+.header__link {
+  font-size: 16px;
+  line-height: 1, 25;
+  color: #676770;
+}
+
+.header__link:hover {
+  color: #0082F3;
+}
+
+.header__link:active {
+  color: #005198;
+}
+
+/*****Main Block******/
