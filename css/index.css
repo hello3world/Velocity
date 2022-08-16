@@ -21,6 +21,25 @@ p {
   color: #6A859C;
 }
 
+.title {
+  margin-bottom: 17px;
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #676770;
+}
+
+.subtitle {
+  font-size: 17px;
+  line-height: 1.18px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #8E8E9C;
+}
+
+
 /*****Header Block******/
 .header {
   position: fixed;
@@ -140,9 +159,9 @@ p {
 
 /*****Advantages Block*****/
 .adventages {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   text-align: center;
   min-height: 100vh;
 }
@@ -155,39 +174,24 @@ p {
   margin-bottom: 60px;
 }
 
-.title {
-  margin-bottom: 17px;
-  font-size: 30px;
-  line-height: 1.2;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  color: #676770;
-}
-
-.subtitle {
-  font-size: 17px;
-  line-height: 1.18px;
-  text-align: center;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: #8E8E9C;
-
-}
 
 .cards {
   display: flex;
   justify-content: space-around;
 }
 
-.card {
+.adventages__card {
   width: 300px;
-  padding: 36px 16px 13px;
+  padding: 36px 16px 23px;
   border: 1px solid #DCEBF7;
   border-radius: 5px;
 }
 
 .card__image {
   margin-bottom: 19px;
+  width: 94px;
+  height: 94px;
+  object-fit: contain;
 }
 
 .card__title {
@@ -200,7 +204,6 @@ p {
 }
 
 .card__desc {
-  margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.8;
   color: #6A859C;
