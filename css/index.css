@@ -23,7 +23,12 @@ p {
 
 /*****Header Block******/
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   padding: 20px 0;
+  background-color: #fff;
 }
 
 .container {}
@@ -56,6 +61,7 @@ p {
   font-size: 16px;
   line-height: 1, 25;
   color: #676770;
+  transition: color 0.2s;
 }
 
 .header__link:hover {
@@ -67,3 +73,65 @@ p {
 }
 
 /*****Main Block******/
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+  height: 100vh;
+  padding: 195px 0;
+  background-color: #005198;
+  background-image: url("/img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+}
+
+.welcome__heading {
+  font-size: 59px;
+  line-height: 1;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+.link-primary {
+  padding: 11px 30px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #69B9FF;
+  border-radius: 4px;
+transition: background-color 0.2s;
+}
+
+.link {
+  padding: 10px 30px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.welcome__links>*+* {
+  margin-left: 20px;
+}
+
+.link-primary:hover {
+  background: #81c0f8;
+}
+.link-primary:active {
+  background: #3d93de;
+}
+.link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.link:active {
+  background: rgba(255, 255, 255, 0.5);
+  border-color: rgba(0, 0, 0, 0.5);
+}
