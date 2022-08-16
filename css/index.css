@@ -99,7 +99,7 @@ p {
   min-height: 600px;
   height: 100vh;
   padding: 195px 0;
-  background: #005198 url("/img/bg.jpg");
+  background: #005198 url("../img/bg.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
