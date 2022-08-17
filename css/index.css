@@ -278,13 +278,11 @@ p {
 }
 
 .tab-item__desc {
-  width: 700px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
 /*****Footer****/
-.footer {}
-
 .footer__desc {
   padding: 35px 0;
 }

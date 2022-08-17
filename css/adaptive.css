@@ -41,6 +41,20 @@
     }
 }
 
+@media (max-width: 660px) {
+  .tab-nav__btn {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+  }
+  .tab-nav__btn + .tab-nav__btn {
+    margin-top: 15px;
+    margin-left: auto;
+  }
+}
+
 @media (max-width: 400px) {
 /*common*/
 body {
@@ -73,8 +87,14 @@ body {
 .card__title {
   font-size: 16px;
 }
+
+/*services*/
 .card__image--services-size {
   width: 430px;
-  height: 240px;
+  height: 175px;
+}
+
+.tab-item__title {
+  font-size: 24px;
 }
 }
