@@ -263,8 +263,6 @@ p {
   margin-left: 16px;
 }
 
-.tab-item {}
-
 .tab-item__image {
   margin-bottom: 16px;
 }
@@ -291,10 +289,13 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px 40px;
 }
 
 .footer__about {
   width: 30%;
+  min-width: 230px;
 }
 
 .footer_title {
@@ -308,6 +309,7 @@ p {
 
 .footer__links {
   width: 30%;
+  min-width: 230px;
 }
 
 .footer__item-links {
@@ -334,6 +336,7 @@ p {
 
 .footer__social {
   width: 30%;
+  min-width: 230px;
 }
 
 .footer__list-socials {
