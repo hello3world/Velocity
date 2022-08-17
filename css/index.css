@@ -54,8 +54,6 @@ p {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1)
 }
 
-.container {}
-
 .header__container {
   display: flex;
   justify-content: space-between;
@@ -69,8 +67,6 @@ p {
   text-transform: uppercase;
   color: #69B9FF;
 }
-
-.header__nav {}
 
 .header__list {
   display: flex;

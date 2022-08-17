@@ -1,0 +1,19 @@
+@media (max-width: 945px) {
+/*Header*/
+.header {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1)
+}
+
+.header__item+li {
+  margin-left: 20px;
+}
+
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}
