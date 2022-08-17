@@ -4,6 +4,36 @@
   position: static;
 }
 
+
+
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+@media (max-width: 610px) {
+  .services .cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .services .card {
+  width: 80%;
+  }
+
+  .titles-wrapper {
+    margin-bottom: 30px;
+  }
+
+}
+@media (max-width: 400px) {
+/*common*/
+body {
+  font-size: 12px;
+}
+/*header*/
 .header__item+li {
   margin-left: 20px;
 }
@@ -15,16 +45,16 @@
 
 .welcome__links a {
   display: block;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .welcome__links>*+* {
   margin-top: 20px;
-  margin-left: 0px;
 }
-
-  .cards {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
+/*advantages*/
+.card__title {
+  font-size: 16px;
+}
 }
