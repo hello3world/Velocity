@@ -4,23 +4,22 @@
   position: static;
 }
 
-
-
-  .cards {
+.adventages .cards {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
   }
 }
-@media (max-width: 610px) {
+@media (max-width: 770px) {
   .services .cards {
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
   }
 
   .services .card {
   width: 80%;
+  padding: 10px
   }
 
   .titles-wrapper {
@@ -28,10 +27,27 @@
   }
 
 }
+@media (max-width: 770px) {
+  .common-section {
+    padding: 60px 0;
+}
+  .titles-wrapper {
+    margin-bottom: 25px;
+  }
+
+  .services .card {
+    width: 90%;
+    padding: 5px
+    }
+}
+
 @media (max-width: 400px) {
 /*common*/
 body {
   font-size: 12px;
+}
+.common-section {
+  padding: 40px 0;
 }
 /*header*/
 .header__item+li {
@@ -56,5 +72,9 @@ body {
 /*advantages*/
 .card__title {
   font-size: 16px;
+}
+.card__image--services-size {
+  width: 430px;
+  height: 240px;
 }
 }
