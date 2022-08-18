@@ -43,6 +43,10 @@ p {
   background-color: #192024;
 }
 
+.hide {
+  display: none;
+}
+
 /*****Header Block******/
 .header {
   position: fixed;
@@ -242,6 +246,19 @@ p {
 
 .tab-nav {
   margin-bottom: 50px;
+}
+
+.tab-item {
+ animation: fade 1s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .tab-nav__btn {
